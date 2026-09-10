@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Direct Chat</title>
+    <style>
+        :root {
+            --primary-color: #25D366;
+            --dark-bg: #0F172A;
+            --card-bg: #1E293B;
+            --text-color: #E2E8F0;
+            --muted-text: #94A3B8;
+            --border-color: #334155;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--dark-bg);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            border-radius: 16px;
+            border: 1px solid var(--border-color);
+            padding: 36px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+        }
+
+        .header {
+            text-align: center;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 24px;
+            margin-bottom: 30px;
+        }
+
+        .app-title {
+            color: var(--primary-color);
+            font-size: 32px;
+            font-weight: 800;
+            margin: 0;
+        }
+
+        .badge-container {
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            margin-top: 16px;
+            flex-wrap: wrap;
+        }
+
+        .badge {
+            background-color: rgba(37, 211, 102, 0.15);
+            color: var(--primary-color);
+            border: 1px solid var(--primary-color);
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: 700;
+        }
+
+        h2 {
+            color: #FFFFFF;
+            font-size: 20px;
+            margin-top: 28px;
+            border-left: 4px solid var(--primary-color);
+            padding-left: 12px;
+        }
+
+        p, li {
+            color: var(--text-color);
+            font-size: 15px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .highlight-box {
+            background-color: rgba(37, 211, 102, 0.08);
+            border: 1px dashed var(--primary-color);
+            border-radius: 12px;
+            padding: 16px 20px;
+            margin: 20px 0;
+        }
+
+        .highlight-box p {
+            margin: 0;
+            font-weight: 600;
+            color: #F8FAFC;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            color: var(--muted-text);
+            font-size: 13px;
+            border-top: 1px solid var(--border-color);
+            padding-top: 20px;
+        }
+
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="card">
+        <div class="header">
+            <h1 class="app-title">Direct Chat</h1>
+            <p style="color: var(--muted-text); margin-top: 6px;">Privacy Policy</p>
+            
+            <div class="badge-container">
+                <span class="badge">NO DATA COLLECTED</span>
+                <span class="badge">100% LOCAL STORAGE</span>
+                <span class="badge">NO REMOTE SERVERS</span>
+            </div>
+        </div>
+
+        <p><strong>Effective Date:</strong> January 1, 2025</p>
+        <p><strong>Developer / Company:</strong> AKM / Damco Group</p>
+
+        <p>Thank you for using <strong>Direct Chat</strong> ("the Application"). Your privacy is extremely important to us. This Privacy Policy outlines how the Application handles your information, requests device permissions, and ensures your data remains safe and private.</p>
+
+        <div class="highlight-box">
+            <p>🛡️ Zero Data Collection Guarantee: Direct Chat does NOT collect, store, transmit, or share your personal information, contact lists, or chat messages on any external or remote servers. All data remains exclusively on your physical mobile device.</p>
+        </div>
+
+        <h2>1. Device Permissions & Usage</h2>
+        <p>To provide its core functionality, Direct Chat requests the following specific permissions on your Android device:</p>
+
+        <ul>
+            <li><strong>Read Contacts (`android.permission.READ_CONTACTS`)</strong>:
+                <br><em>Purpose:</em> Used strictly locally on your device to allow you to pick recipient phone numbers for Direct Messaging and Bulk SMS broadcasting. Your contact list is never uploaded, synced, or backed up to any server.
+            </li>
+            <li><strong>Internet Access (`android.permission.INTERNET` & `android.permission.ACCESS_NETWORK_STATE`)</strong>:
+                <br><em>Purpose:</em> Required to verify network connectivity and to fetch advertisements served by Google AdMob.
+            </li>
+            <li><strong>Notifications & Exact Alarms (`android.permission.POST_NOTIFICATIONS` & `SCHEDULE_EXACT_ALARM`)</strong>:
+                <br><em>Purpose:</em> Used strictly on-device to trigger local reminder alarms and push notifications for your scheduled follow-ups.
+            </li>
+        </ul>
+
+        <h2>2. Data Storage & Security</h2>
+        <p>All app operational data—including your saved custom message templates, message history logs, and scheduled reminder times—is stored in a private Room SQLite database on your local device. Uninstalling the Application will automatically erase this local database.</p>
+
+        <h2>3. Third-Party Services & Advertisements</h2>
+        <p>Direct Chat integrates official Google AdMob SDK services to display advertisements. Google AdMob may collect device identifiers (such as Advertising ID) to serve personalized or contextual ads in compliance with Google's Privacy Policies.</p>
+        <ul>
+            <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a></li>
+            <li><a href="https://support.google.com/admob/answer/6128543" target="_blank" rel="noopener">Google AdMob Policies & Restrictions</a></li>
+        </ul>
+
+        <h2>4. WhatsApp Integration</h2>
+        <p>Direct Chat utilizes official Android Intent APIs (`https://api.whatsapp.com/send`) to initiate conversations in official WhatsApp Messenger or WhatsApp Business applications installed on your device. Direct Chat is an independent utility app and is not affiliated, endorsed, or sponsored by WhatsApp LLC or Meta Platforms, Inc.</p>
+
+        <h2>5. Children's Privacy</h2>
+        <p>The Application does not address anyone under the age of 13. We do not knowingly collect personal identifiable information from children.</p>
+
+        <h2>6. Changes to This Privacy Policy</h2>
+        <p>We may update our Privacy Policy from time to time. You are advised to review this page periodically for any changes. Changes are effective immediately after they are posted on this page.</p>
+
+        <h2>7. Contact Us</h2>
+        <p>If you have any questions or suggestions regarding this Privacy Policy, please feel free to contact us:</p>
+        <ul>
+            <li><strong>Website:</strong> <a href="https://portal.damcogroup.com/" target="_blank">https://portal.damcogroup.com/</a></li>
+            <li><strong>Email:</strong> <a href="mailto:support@damcogroup.com">support@damcogroup.com</a></li>
+        </ul>
+
+        <div class="footer">
+            &copy; 2025 Direct Chat. All rights reserved.
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
